@@ -1,0 +1,25 @@
+/* /Users/boby07/Downloads/gitdemo/localtogitrepo/newcss.css */
+/* Red box utility */
+.red-box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #ff4d4d; /* red */
+    color: #ffffff;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 2px solid #b30000;
+    box-shadow: 0 4px 10px rgba(179, 0, 0, 0.25);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    line-height: 76px; /* centers single-line text vertically */
+}
+
+/* Optional: full-width variant */
+.red-box.full {
+    display: block;
+    width: 100%;
+    line-height: normal;
+    padding: 16px;
+}
